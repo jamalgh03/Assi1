@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEFFFF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="152dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#FFFDFD"
+        android:src="@drawable/ass_photo" />
+
+
+    <Button
+        android:id="@+id/Enter"
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:background="#F6F0F0"
+        android:fontFamily="casual"
+        android:foregroundTintMode="src_in"
+        android:text="Enter"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/note"
+        android:layout_width="53dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#DDCFCF"
+        android:text="!"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="casual"
+        android:text="This program helps students learn the multiplication tables, so that the student can multiply any two numbers from 0 to 9. He can also see the ready-made multiplication tables and can see more than one way to solve the multiplication result. In addition, it is also possible to record notes on the achievements and tasks expected of him!"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+
+</LinearLayout>
