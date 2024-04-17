@@ -13,7 +13,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 
 public class Act3 extends AppCompatActivity {
-    private Spinner spn;
+    private Spinner spn; //
     private Button enter;
     private TextView result1;
     private Button Goo;

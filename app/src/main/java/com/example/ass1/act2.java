@@ -105,7 +105,7 @@ public class act2 extends AppCompatActivity {
     }
 
     private void findview() {
-        calculate = findViewById(R.id.claculate);
+        calculate = findViewById(R.id.claculate) ;
         txt1 = findViewById(R.id.txt1);
         txt2 = findViewById(R.id.txt2);
         Res = findViewById(R.id.result1);

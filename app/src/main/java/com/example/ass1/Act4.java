@@ -21,7 +21,7 @@ import java.util.ArrayList;
 public class Act4 extends AppCompatActivity {
     private EditText txt1;
     private EditText txt2;
-    private Button add;
+    private Button add; //
     private RadioGroup rdGroup;
     private RadioButton done, not;
     private ListView list;

@@ -28,7 +28,7 @@
         android:fontFamily="casual"
         android:foregroundTintMode="src_in"
         android:text="Enter"
-        android:textSize="24sp"
+        android:textSize="25sp"
         android:textStyle="bold" />
 
     <Button

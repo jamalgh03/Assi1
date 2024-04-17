@@ -42,7 +42,7 @@
         android:layout_marginTop="10dp"
         android:fontFamily="monospace"
         android:gravity="center"
-        android:text="Specify the start and end time (days or hours)"
+        android:text="Specify the start and end time (days or hour)"
         android:textSize="16sp"
         android:textStyle="bold" />
 
