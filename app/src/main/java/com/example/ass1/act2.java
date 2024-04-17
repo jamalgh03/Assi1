@@ -99,7 +99,7 @@ public class act2 extends AppCompatActivity {
             Res.setText("Please enter valid integer numbers");
         } catch (Exception e) {
             // Handle any other unexpected exceptions
-            Res.setText("An error occurred: " + e.getMessage());//
+            Res.setText("An error occurred: " + e.getMessage());
             e.printStackTrace(); // Print the stack trace for debugging
         }
     }
