@@ -24,6 +24,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="200dp"
         android:background="#F6F0F0"
+        android:backgroundTint="#838337"
         android:fontFamily="casual"
         android:foregroundTintMode="src_in"
         android:text="Enter"
@@ -32,22 +33,32 @@
 
     <Button
         android:id="@+id/note"
-        android:layout_width="53dp"
-        android:layout_height="44dp"
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:background="#DDCFCF"
-        android:text="!"
-        android:textSize="24sp" />
-
-    <TextView
-        android:id="@+id/view"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
         android:fontFamily="casual"
-        android:text="This program helps students learn the multiplication tables, so that the student can multiply any two numbers from 0 to 9. He can also see the ready-made multiplication tables and can see more than one way to solve the multiplication result. In addition, it is also possible to record notes on the achievements and tasks expected of him!"
-        android:textSize="20sp"
-        android:visibility="gone" />
+        android:text="Summary !"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="238dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="casual"
+            android:text="This program aims to help students learn multiplication tables so that: 1 - In the second activity, the student is able to enter any two numbers from 0 to 9 and multiply them. More than one method is presented to produce the result by adding two numbers, and every time the button is pressed, random solutions are displayed.  2 - In the third activity, the student can see the ready-made multiplication tables so that he chooses the table he wants from the list, and his multiplication result from 1 to 9 is displayed so that the student can review his results or study.  3- In the fourth activity, the student can write down his notes, progress, and achievements, and he can determine the time he started his studies, the time of his assignment, the date of its completion, and whether it is ready or not."
+            android:textSize="20sp"
+            android:visibility="gone" />
+    </ScrollView>
 
 
 </LinearLayout>

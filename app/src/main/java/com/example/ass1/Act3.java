@@ -17,7 +17,6 @@ public class Act3 extends AppCompatActivity {
     private Button enter;
     private TextView result1;
     private Button Goo;
-    private Button bk;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -34,12 +33,7 @@ public class Act3 extends AppCompatActivity {
             }
         });
         ChoiceSpn();
-        bk.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                secondAct2();
-            }
-        });
+
 
         enter.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -89,6 +83,5 @@ public class Act3 extends AppCompatActivity {
         enter = findViewById(R.id.button5);
         result1 = findViewById(R.id.result1);
         Goo = findViewById(R.id.Goo);
-        bk = findViewById(R.id.bk);
     }
 }

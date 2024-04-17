@@ -24,6 +24,7 @@
         android:layout_height="27dp"
         android:layout_marginTop="20dp"
         android:fontFamily="monospace"
+        android:gravity="center"
         android:text="please enter number between 0 and 9"
         android:textSize="16sp"
         android:textStyle="bold" />
@@ -66,6 +67,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:fontFamily="monospace"
+        android:gravity="center"
         android:text="Result is :"
         android:textSize="16sp"
         android:textStyle="bold" />
@@ -121,16 +123,6 @@
         android:textSize="16sp"
         android:textStyle="bold"
         app:rippleColor="#9F7575" />
-
-    <Button
-        android:id="@+id/back"
-        android:layout_width="match_parent"
-        android:layout_height="37dp"
-        android:layout_marginTop="20dp"
-        android:fontFamily="monospace"
-        android:text="Back to home"
-        android:textSize="16sp"
-        android:textStyle="bold" />
 
     <Button
         android:id="@+id/Go"

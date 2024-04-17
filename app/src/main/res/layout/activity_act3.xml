@@ -51,15 +51,6 @@
         android:text="Go to Note "
         android:textStyle="bold" />
 
-    <Button
-        android:id="@+id/bk"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:fontFamily="monospace"
-        android:text="Back to home"
-        android:textStyle="bold" />
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="225dp">

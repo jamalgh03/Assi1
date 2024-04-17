@@ -22,6 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="monospace"
+        android:gravity="center"
         android:text="Write the task or the achievement"
         android:textSize="16sp"
         android:textStyle="bold" />
@@ -40,7 +41,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:fontFamily="monospace"
-        android:text="Task end date"
+        android:gravity="center"
+        android:text="Specify the start and end time (days or hours)"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -56,6 +58,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="monospace"
+        android:gravity="center"
         android:text="Done ??"
         android:textSize="16sp"
         android:textStyle="bold" />
