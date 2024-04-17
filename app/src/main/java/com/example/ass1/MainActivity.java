@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     private Button enter; // enter button
     private TextView view; // note show text view
 
-    @SuppressLint("MissingInflatedId")
+    @SuppressLint("MissingInflatedId") //
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
